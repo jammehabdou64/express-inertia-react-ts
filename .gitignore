@@ -1,0 +1,13 @@
+/node_modules
+
+/public/build
+
+/bootstrap/ssr
+
+/public/hot
+
+/build
+
+/dist
+
+.env

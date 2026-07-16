@@ -1,0 +1,39 @@
+{
+  "name": "express-inertia-react-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "watch": "vite",
+    "ssr": "node bootstrap/ssr/ssr.js",
+    "vite-build": "vite build && vite build --ssr"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jcc-inertia-express": "^0.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@inertiajs/react": "^3.6.1",
+    "@inertiajs/vite": "^3.6.1",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "laravel-vite-plugin": "^3.1.3",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.4"
+  }
+}
